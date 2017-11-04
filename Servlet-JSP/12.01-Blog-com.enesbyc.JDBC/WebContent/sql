@@ -1,0 +1,4 @@
+CREATE TABLE `veritabani`.`lesson` (
+  `LessonID` INT NOT NULL,
+  `LessonName` VARCHAR(45) NULL,
+  PRIMARY KEY (`LessonID`));
