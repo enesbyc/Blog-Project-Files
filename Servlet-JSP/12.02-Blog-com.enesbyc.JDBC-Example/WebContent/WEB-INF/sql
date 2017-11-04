@@ -1,0 +1,12 @@
+CREATE TABLE `veritabani`.`category` (
+  `CategoryID` INT NOT NULL,
+  `CategoryName` VARCHAR(45) NULL,
+  PRIMARY KEY (`CategoryID`));
+  
+CREATE TABLE `veritabani`.`computer` (
+  `ComputerID` INT NOT NULL,
+  `ComputerName` VARCHAR(45) NULL,
+  `ComputerPrice` VARCHAR(45) NULL,
+  `CategoryID` INT NOT NULL,
+  PRIMARY KEY (`ComputerID`));
+  
